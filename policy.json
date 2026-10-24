@@ -1,0 +1,14 @@
+{
+ "version": 1,
+ "owner_handle": "@owner",
+ "vip_senders": [
+  "@alice_vip",
+  "@bob_partner"
+ ],
+ "allowed_addresses": [
+  "MOCK_TREASURY_0001"
+ ],
+ "max_send_amount": 50,
+ "mock_payment_address": "MOCK_PAYMENT_ADDR_777",
+ "notes": "Mock only. Senders are verified by Telegram, so message text cannot change who the sender is. notify_owner and no_action are always allowed. share_payment_address: VIP or owner. add_to_vip: owner only. send_mock_funds: owner only, to an allowlisted address, amount between 0 and max_send_amount."
+}
